@@ -37,7 +37,7 @@ Transform a budget Acer laptop into a high-performance Linux machine for product
 ## Lessons & Observations  
 - BIOS settings don’t always save the first time. Apply changes, reboot, then double-check.  
 - Linux installation in 2025 is smoother than ever, unless you're dealing with Apple hardware (more on that below).  
-- With this machine, I can write, test tools, build scripts, and break things - then write about breaking them.  
+- With this machine, I can write, test tools, build scripts, and break things, then write about breaking them.  
 - I’m one 32GB DIMM away from 36GB RAM in a sub $500 build. That’s not just efficient, it’s a middle finger to overpriced ultrabooks.  
 
 ## Final Notes  
