@@ -1,0 +1,68 @@
+# POP_! OS Upgrade Raw Notes
+## The Problem
+- I know the new Pop os version has been released. I wanted to see if the upgrade from 22.04 to 24.04 was available yet On POP_! OS.
+1. First off, now is a great time to make sure Backups are occurring on time. The backup program Timeshift is timeshifting. Backups occorring weekly and saving
+2. Updated all packages on the Cosmic Store
+3. Settings> OS Upgrade and Recovery. Upgrade not available. Attempted a recovery, Recovery failed, could not initiate OS Recovery 
+4. I knew that this was the ***"easy way"***, it's time to do this right. Time for a command line install (like a badass).
+5. Opening the COSMIC Text Editor.
+6. I ran the command sudo apt update && upgrade
+7. While attempting to update  
+E: The repository 'https://ppa.launchpadcontent.net/bookworm-team/bookworm/ubuntu jammy Release' does not have a Release file.  
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.  
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+8. Followed the link to the repository index. I followed the bookworm ppa to the parent directory.The parent directory shows the related project is the bookworm app and not any Debian Bookworm related dependencies.
+9. I said (to myself) I will do this the right way, but I have to check something. 
+10. Opening the Software and Updates app. I could easily delete the this ppa (or repository) from here, but I decieded to do this the right way so...
+11. Back to the command line.sudo ppa-purge ppa:launchpadcontent.net/bookworm-team/bookworm/ubuntu
+12. sudo: ppa-purge: command not found. sudo 
+13. sudo add-apt-repository --remove ppa:launchpadcontent.net/bookworm-team/bookworm/ubuntu
+14. Unable to handle repository shortcut 'ppa:launchpadcontent.net/bookworm-team/bookworm/ubuntu'
+15. Running ls /etc/apt/sources.list.d
+16. Returned: bookworm-team-ubuntu-bookworm-jammy.list  pop-os-apps.sources  pop-os-release.sources  system.sources
+17. Double checking everything before moving to this solution. error found. Running sudo apt install ppa-purge.
+18. Running sudo ppa-purge ppa-launchpadcontent.net/bookworm-team/bookworm/ubuntu
+19. Returned Updating packages lists
+E: The repository 'https://ppa.launchpadcontent.net/bookworm-team/bookworm/ubuntu jammy Release' does not have a Release file.
+Warning:  apt-get update failed for some reason
+20. OK, enough is enough. I did want to do this at the command line. I know that running sudo rm -i /etc/apt/sources.list.d/bookworm-team-ubuntu-bookworm-jammy.list will absolutely work, it will also likely create more messes and headaches down the road. To the GUI Software & Updates (like less of a badass)
+21. Removing ppa through Software & Updates. Done
+22. Checking by running ls /etc/apt/sources.list.d
+23. Returned  bookworm-team-ubuntu-bookworm-jammy.list  bookworm-team-ubuntu-bookworm-jammy.list.save  pop-os-apps.sources  pop-os-release.sources  system.sources
+24. Ran Sudo Apt Update just to check nothing had changed. Update Failed.
+25. Attempting through Software & Updates one last time.
+26. Returned bookworm-team-ubuntu-bookworm-jammy.list  bookworm-team-ubuntu-bookworm-jammy.list.save  pop-os-apps.sources  pop-os-release.sources  system.sources
+27. Running sudo rm -i /etc/apt/sources.list.d/bookworm-team-ubuntu-bookworm-jammy.list
+28. Returned rm: remove regular empty file '/etc/apt/sources.list.d/bookworm-team-ubuntu-bookworm-jammy.list'? (answer y).
+29. Running. sudo apt update.  Successful
+30. Running sudo apt upgrade. Done
+31. Closing all open running applications due to a past bug in upgrading Pop. Running sudo pop-upgrade release upgrade.
+32. Returned checking if pop-upgrade requires an update (notihng else)
+33. Powercycling laptop
+34. attempted GUI upgrade, not available. recovery failed. Originating Error cause -- failed to set up OS refresh: client error: calling RefreshOS method failed:Could not activate remote peer: activation request failed: unit is masked.
+35. pop-upgrade recovery upgrade from-release
+36. sudo rm -f /etc/apt/sources.list.d/pop-os-ppa.sources
+systemctl restart pop-upgrade. Response -- Failed to restart pop-upgrade.service: Unit pop-upgrade.service is masked.
+37. Running systemctl unmask pop-upgrade
+38. Re-Running systemctl restart pop-upgrade
+39. Running pop-upgrade release upgrade
+40. Recovery partition now available. Recovering. Downloading the recovery partition
+41. Refresh OS reinstall initiated and running the recovery program. Computer rebooting.
+42. Unfortunately, there was no OS Upgrade available, just a fresh(ish) install of pop.
+43. System changes observed. Software & Updates is missing from the OS. Opening Repoman.Repo settings confirmed.
+44. Opening Bookworn, bookworm operational. All systems appear to be recovered and working properly.
+45. Checking for Timeshift logs. Timeshift not found on os.
+46. Attempting to download Timeshift from the COSMIC Store. Cosmic Store is gone as are all apps installed through the COSMIC Store (flatpack). Opening pop!_shop.
+47. Downloading COSMIC Store. I will not reinstall the cosmic apps as none were much better that what they are intended to replace. I will risk having to fix this issue in the future,so i can update apps quickly,instead of using pop!_shop. Its the worst.
+48. Updating through pop_shop
+49. one last try at it. Running  pop-upgrade release upgrade
+50. returned -- checking if pop-upgrade requires an update
+Current Release: 22.04
+Upgrading to: 24.04
+New version available: false
+no release available to upgrade to
+
+
+
+Lessons learned 
+10 Boy was I wrong.
