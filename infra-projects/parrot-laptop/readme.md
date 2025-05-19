@@ -13,7 +13,7 @@ This project documents the conversion of an older laptop into a dedicated offens
 ## Hardware
 
 - **Model:** ES1-572-321G 
-- **RAM:** 20 GB
+- **RAM:** 16 GB
 - **Storage:** SSD (upgraded)
 - **Network:** Dual band WiFi, Ethernet via USB-C dongle (ethernet port does not work properly)
 
