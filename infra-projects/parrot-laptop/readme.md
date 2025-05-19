@@ -7,7 +7,7 @@ This project documents the conversion of an older laptop into a dedicated offens
 - Repurpose existing hardware to maximize utility and reduce e-waste
 - Install and configure Parrot OS (Security Edition) for pentesting workflows
 - Harden the system for both offensive and defensive operations
-- Integrate with a home lab (VLAN-separated, firewalled, and logged)
+- Integrate with a home lab (VLAN separated, firewalled, and logged)
 - Ensure portability for on-site assessments and wireless audits
 
 ## Hardware
@@ -15,7 +15,7 @@ This project documents the conversion of an older laptop into a dedicated offens
 - **Model:** ES1-572-321G 
 - **RAM:** 20 GB
 - **Storage:** SSD (upgraded)
-- **Network:** Dual-band Wi-Fi, Ethernet via USB-C dongle
+- **Network:** Dual band WiFi, Ethernet via USB-C dongle (ethernet port does not work properly)
 
 ## Software Stack
 
@@ -29,7 +29,7 @@ This build serves as a hybrid training and engagement machine. It supports local
 ## Notes
 
 - Tuned for battery conservation without sacrificing capability
-- All telemetry disabled; no third-party analytics or phone-home behavior
+- All telemetry disabled; no third-party analytics or "phone home" behavior
 - Local logs forwarded to central syslog on NAS for correlation
 
 ## Future Enhancements
