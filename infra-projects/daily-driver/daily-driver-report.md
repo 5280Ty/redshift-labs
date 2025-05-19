@@ -20,8 +20,8 @@ Transform a budget Acer laptop into a high-performance Linux machine for product
 - Swapped out the factory SSD with a 1TB unit for proper storage breathing room.  
 - Upgraded to 20GB of RAM. Acer claims that’s the limit.  
 - Confirmed unofficial RAM support for up to 36GB based on chipset documentation and international forum wisdom.  
-- Installed **Pop!_OS 22.04** - chosen for its stability, hardware support, and clean GNOME-based interface.  
-- Disabled Secure Boot (twice - BIOS sometimes plays peekaboo with settings).  
+- Installed **Pop!_OS 22.04**, chosen for its stability, hardware support, and clean GNOME-based interface.  
+- Disabled Secure Boot (twice, BIOS sometimes plays peekaboo with settings).  
 - Installed core software for productivity and creation:  
   - **LibreOffice** (Docs), **Manuskript** (Outlining), **Ghostwriter** (Markdown), **Geany/Vim** (Code)  
   - **Darktable** (Photos), **Flowblade** (Video), **Scribus** (Layout)  
