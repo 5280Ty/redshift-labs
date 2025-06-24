@@ -57,7 +57,7 @@ It is *not* used for productivity, personal data, or general browsing. Risk is i
 ---
 
 ## Future Plans
-- Evaluate hopping to Kali or Pentoo for more hardened, minimal builds.
+- Evaluate hopping to Pentoo for a more hardened, minimal build.
 - Explore adding Kali Purple apps for maximum flexability of the machine.
 - Explore adding more RAM for cracking passwords and hashes. Support found for both 32GB and 64GB.
 - Stage toolchains using apt, snap, or manual builds as needed.
