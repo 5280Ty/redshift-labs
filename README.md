@@ -1,2 +1,2 @@
 # redshift-labs
-Offensive security writeups and training labs from Redshift Protocol
+Offensive and defensive security writeups and training labs from Redshift Protocol
