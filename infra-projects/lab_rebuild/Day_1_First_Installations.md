@@ -25,7 +25,8 @@
 | Primary Storage | 256 GB SSD | Proxmox OS & VM/Container Storage | active |
  Secondary Storage | 1 TB SSD | Photo and Media Storage | Planned |
 
-Note: Uses Intel QuickSync for transcoding
+Note: Uses Intel QuickSync for transcoding  
+
 Yaml
 ```yaml
 services:
