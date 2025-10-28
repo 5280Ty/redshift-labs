@@ -205,7 +205,7 @@ password: ${DB_PASSWORD}
 | Node 3 | EliteDesk 705 G4 | Logging / Backup / Sync | Proxmox Backup Server, Loki, Promtail, Syncthing |
 | Node 4 | EliteDesk 705 G4 | Home Automation & Aux | Home Assistant, Mealie, CUPS |
 
-[Full Lab Infrastructure Details](https://github.com/5280Ty/redshift-labs/blob/main/infra-projects/lab_rebuild/Software%20Stack)
+[Full Lab Infrastructure Details](https://github.com/5280Ty/redshift-labs/blob/main/infra-projects/lab_rebuild/Software%20Stack.md)
 
 
 ## Lessons Learned
