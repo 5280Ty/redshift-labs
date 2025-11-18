@@ -12,7 +12,8 @@ A black box assessment against OWASP Juice Shop. I approached it like a real eng
 - OSINT on internal users  
 - Analysis of risk and impact
 
-**Walkthrough:** See  `Juice-Shop-Series/Walkthrough1.md`
+**Raw Notes:** See  [`Juice Shop Series Raw Notes Phase 1`](https://github.com/5280Ty/redshift-labs/blob/main/offsec-fieldwork/Juice-Shop-Series/Phase1-raw-notes.md)  
+**Walkthrough:** coming soon
 
 ---
 
@@ -22,6 +23,7 @@ _This slot is reserved for the second major offensive project._
 **Snapshot:**  
 - To be added  
 
+**Raw notes:** coming soon  
 **Walkthrough:** coming soon
 
 ---
@@ -32,6 +34,7 @@ Same structure as above.
 **Snapshot:**  
 - To be added
 
+**Raw notes:** coming soon  
 **Walkthrough:** coming soon
 
 ---
@@ -40,6 +43,7 @@ Same structure as above.
 **Snapshot:**  
 - To be added
 
+**Raw notes:** coming soon  
 **Walkthrough:** coming soon
 
 ---
@@ -48,6 +52,7 @@ Same structure as above.
 **Snapshot:**  
 - To be added
 
+**Raw notes:** coming soon  
 **Walkthrough:** coming soon
 
 ---
@@ -56,6 +61,7 @@ Same structure as above.
 **Snapshot:**  
 - To be added
 
+**Raw notes:** coming soon  
 **Walkthrough:** coming soon
 
 ---
