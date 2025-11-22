@@ -1,7 +1,7 @@
 ## Project Index  
 Each entry below includes a short summary and a quick snapshot of what the project demonstrates. Full walkthroughs live inside each project’s folder.
 
-### **1. OWASP Juice Shop Pentest (Completed)**  
+### **1. OWASP Juice Shop Pentest 1-Star Challenge (Completed)**  
 A black box assessment against OWASP Juice Shop. I approached it like a real engagement, not a scavenger hunt. Enumeration, exploitation, post‑exploitation, and challenge completion were all done manually, with only one request modified in Burp.  
 
 **Snapshot:**  
@@ -17,8 +17,7 @@ A black box assessment against OWASP Juice Shop. I approached it like a real eng
 
 ---
 
-### **2. Project Two (Placeholder)**  
-_This slot is reserved for the second major offensive project._
+### **2. OWASP Juice Shop Pentest 2-Star Challenge (Coming Soon)**  
 
 **Snapshot:**  
 - To be added  
@@ -28,8 +27,7 @@ _This slot is reserved for the second major offensive project._
 
 ---
 
-### **3. Project Three (Placeholder)**  
-Same structure as above.
+### **3. OWASP Juice Shop Pentest 3-Star Challenge (Coming Soon)**  
 
 **Snapshot:**  
 - To be added
@@ -39,7 +37,7 @@ Same structure as above.
 
 ---
 
-### **4. Project Four (Placeholder)**  
+### **4. OWASP Juice Shop Pentest 4-Star Challenge (Coming Soon)**  
 **Snapshot:**  
 - To be added
 
@@ -48,7 +46,7 @@ Same structure as above.
 
 ---
 
-### **5. Project Five (Placeholder)**  
+### **5. OWASP Juice Shop Pentest 5-Star Challenge (Coming Soon)**  
 **Snapshot:**  
 - To be added
 
@@ -57,7 +55,7 @@ Same structure as above.
 
 ---
 
-### **6. Project Six (Placeholder)**  
+### **6. OWASP Juice Shop Pentest 6-Star Challenge (Coming Soon)**  
 **Snapshot:**  
 - To be added
 
