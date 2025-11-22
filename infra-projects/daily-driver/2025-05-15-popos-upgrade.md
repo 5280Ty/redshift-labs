@@ -1,4 +1,5 @@
-# 2025-05-15: Pop!_OS 22.04 → 24.04 Upgrade Attempt
+# Pop!_OS 22.04 to 24.04 Upgrade Attempt
+2025-05-15
 
 With Pop!_OS 24.04 and COSMIC on the horizon, I tested whether a manual upgrade from 22.04 to 24.04 was viable.
 
