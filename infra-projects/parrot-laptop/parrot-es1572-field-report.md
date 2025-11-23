@@ -1,10 +1,14 @@
-# Parrot OS Rebuild: Acer ES1-572-321G
+<p align="center">
+<img src="https://github.com/5280Ty/5280Ty/blob/main/Parrot.png" alt="BlackThorn" width="350"/>
+</p>
 
-**Redshift Protocol Internal Asset ID:** parrot-es1572  
+<h1 align="center">Parrot OS Rebuild: Acer ES1-572-321G</h1>
+
+**Redshift Protocol Internal Designation:** BlackThorn  
 **Date Deployed:** 2024-09-27  
 **Distro Version:** Parrot OS 6.1 “Lorikeet”  
 **Use Case:** Lab-only offensive security platform  
-**User Data Present:** None (NO PII)
+**User Data Present:** None (NO PII)  
 
 ---
 
@@ -61,7 +65,6 @@ It is *not* used for productivity, personal data, or general browsing. Risk is i
 - Explore adding Kali Purple apps for maximum flexability of the machine.
 - Explore adding more RAM for cracking passwords and hashes. Support found for both 32GB and 64GB.
 - Stage toolchains using apt, snap, or manual builds as needed.
-- Potential PXE boot project from core Redshift hub.
 
 ---
 
