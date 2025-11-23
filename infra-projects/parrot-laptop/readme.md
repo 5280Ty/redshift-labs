@@ -1,4 +1,8 @@
-# Parrot OS Laptop Build
+<p align="center">
+<img src="https://github.com/5280Ty/5280Ty/blob/main/laptop.png" alt="Laptop upgrade in progress" width="400"/>
+</p>
+
+<h1 align="center">Parrot OS Laptop Build</h1>
 
 This project documents the conversion of an older laptop into a dedicated offensive security and penetration testing platform using Parrot OS. The goal was to create a lightweight, mobile lab environment for field testing, red team practice, and hands-on tool development, without the overhead of a full desktop setup.
 
