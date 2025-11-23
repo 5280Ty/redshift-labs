@@ -1,7 +1,8 @@
 ## Project Index  
 Each entry below includes a short summary and a quick snapshot of what the project demonstrates. Full walkthroughs live inside each project’s folder.
 
-### **1. OWASP Juice Shop Pentest 1-Star Challenge (Completed)**  
+### **1. OWASP Juice Shop Pentest [1-Star Challenge](https://github.com/5280Ty/redshift-labs/blob/main/offsec-fieldwork/Juice-Shop-Series/Phase1.md) (Completed)**  
+
 A black box assessment against OWASP Juice Shop. I approached it like a real engagement, not a scavenger hunt. Enumeration, exploitation, post‑exploitation, and challenge completion were all done manually, with only one request modified in Burp.  
 
 **Snapshot:**  
