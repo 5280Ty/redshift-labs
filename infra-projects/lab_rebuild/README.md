@@ -1,4 +1,9 @@
-# Lab Rebuild: New City, Better Lab
+<p align="center">
+<img src="https://github.com/5280Ty/5280Ty/blob/main/lab.png" alt="Lab" width="700"/>
+</p>
+
+<h1 align="center">Lab Rebuild: New City, Better Lab</h1>
+
 **Date:** 2025-10-06  
 **System Role:** A compact, multiple system research and training environment that combines system administration, network defense, and offensive security within a single controlled ecosystem.  
 ## Objective  
