@@ -1,11 +1,14 @@
 <p align="center">
 <img src="https://github.com/5280Ty/5280Ty/blob/main/Snake.png" alt="NetVenom" width="350"/>
 </p>
-# Daily Driver Linux Build: Acer Aspire A315-58-59TK
+
+<h1 align="center">Daily Driver Linux Build: Acer Aspire A315-58-59TK</h1>
+
 
 **Date:** 2025-04-28  
 **System Role:** Daily Driver / Linux Workhorse  
 **Distribution:** Pop!_OS 22.04  
+**Designation:** NetVenom
 
 ---
 
