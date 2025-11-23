@@ -4,11 +4,11 @@
 
 <h1 align="center">Daily Driver Linux Build: Acer Aspire A315-58-59TK</h1>
 
-
+**Redshift Protocol Internal Designation:** NetVenom  
 **Date:** 2025-04-28  
 **System Role:** Daily Driver / Linux Workhorse  
 **Distribution:** Pop!_OS 22.04  
-**Designation:** NetVenom
+
 
 ---
 
