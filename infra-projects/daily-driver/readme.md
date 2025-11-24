@@ -41,7 +41,18 @@ Maintain a polished, stable daily driver environment without compromising utilit
 
 **Planned Upgrade:**
 
-- 36GB RAM (32GB DIMM supported unofficially)  
+- 36GB RAM (32GB SODIMM supported unofficially and by hardware)  
+
+```
+sudo dmidecode -t memory
+```
+>Physical Memory Array  
+	Location: System Board Or Motherboard  
+  Use: System Memory  
+  Error Correction Type: None  
+  Maximum Capacity: 64 GB  
+  Error Information Handle: Not Provided  
+  Number Of Devices: 2
 
 ---
 
@@ -81,6 +92,6 @@ Maintain a polished, stable daily driver environment without compromising utilit
 
 Pop!_OS balances refinement and power better than most distributions. While I don’t worship System76, their engineering is respected.  
 
-Until then, this Acer laptop is sufficient: it respects user control, does not require proprietary accounts, and does not enforce unexpected updates.
+Until I feel an upgrade is needed, this Acer laptop is sufficient: it respects user control, does not require proprietary accounts, and does not enforce unexpected updates.
 
 ---
