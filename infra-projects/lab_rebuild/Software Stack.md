@@ -88,7 +88,7 @@
 - **RAM:** 16 GB DDR4 (Will upgrade RAM to system max 32 GB for intensive testing lncluding fuzzing and scanning)
 - **Storage:** 
   - OS SSD: 512 GB NVMe
-  - Data SSD: None (Will add SSD in the future for VM storage, low priority)
+  - Data SSD: None (Will add SSD in the future for Vuln VM / Malware storage, low priority)
 - **Hosted Applications:** 
   - DVWA - A Damn Vulnerable Web Application (Installed)
   - OWASP Juice Shop - An intentionally insecure web application (Installed)
