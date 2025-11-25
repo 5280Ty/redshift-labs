@@ -1,3 +1,9 @@
+<p align="center">
+<img src="https://github.com/5280Ty/5280Ty/blob/main/entry.png" alt="Parrot picking a door lock" width="400"/>
+</p>
+
+<h1 align="center">Juice Shop Penetration Testing Series</h1>
+
 ## Project Index  
 Each entry below includes a short summary and a quick snapshot of what the project demonstrates. Full walkthroughs live inside each project’s folder.
 
