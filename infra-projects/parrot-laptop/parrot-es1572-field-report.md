@@ -1,6 +1,3 @@
-<p align="center">
-<img src="https://github.com/5280Ty/5280Ty/blob/main/Parrot.png" alt="BlackThorn" width="350"/>
-</p>
 
 <h1 align="center">Parrot OS Rebuild: Acer ES1-572-321G</h1>
 
