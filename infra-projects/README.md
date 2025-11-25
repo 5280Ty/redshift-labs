@@ -3,7 +3,7 @@
 <img src="https://github.com/5280Ty/5280Ty/blob/main/laptop.png" alt="NetVenom" width="350"/>
 </p>
 
-<h1 align="center">Infrastructure Fieldwork</h1> 
+<h1 align="center">Infrastructure Projects/Fieldwork</h1> 
 
 A living record of system evolution, homelab engineering, and hands on security hardening.
 
