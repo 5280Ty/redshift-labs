@@ -231,5 +231,5 @@ password: ${DB_PASSWORD}
 ---
 
 Environment: Project Nyxline Homelab  
-Report: NoctHaven & RedShift Deployment  
-Author: Ty  
+Report: Home Server  & Cyber Range Lab Deployment  
+
