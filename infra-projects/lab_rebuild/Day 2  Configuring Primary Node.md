@@ -406,4 +406,4 @@ services:
 ---
 
 Environment: **Project Nyxline Home Lab**  
-Report: **Configuring Primary Node**  
+Report: ** Primary Node Services Configuration**  
