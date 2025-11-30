@@ -403,3 +403,7 @@ services:
 [homer docs](https://github.com/bastienwirtz/homer/tree/main/docs)  
 [MariaDB docs](https://mariadb.com/docs/)  
 
+---
+
+Environment: **Project Nyxline Home Lab**  
+Report: **Configuring Primary Node**  
