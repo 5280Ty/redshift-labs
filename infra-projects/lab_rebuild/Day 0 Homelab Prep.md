@@ -201,8 +201,7 @@ HP OfficeJet Pro 6968 remains offline pending hardening or VLAN isolation
 
 
 ---
-
+Environment: Project Nyxline Homelab 
 Project: Network Architecture & Deployment  
-Environment: Project Nyxline Homelab  
-Author: Ty  
-Date: Day 0  
+ 
+ 
