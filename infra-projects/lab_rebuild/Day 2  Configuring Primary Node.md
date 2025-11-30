@@ -358,19 +358,19 @@ services:
 
 ---
 
----
-
 ## Containers
 
 ### Total Running Containers
 
 |Name|Image|Status|
 |---|---|---|
-|Homer|b4bz/homer:latest|Up, healthy|
+|Homer|b4bz/homer:latest|Up, Healthy|
 |Maria DB|mariadb:10.11|Up|
 |Nextcloud|nextcloud:apache|Up|
 |Portainer|portainer/portainer-ce:latest|Up|
-
+|dvwa|vulnerables/web-dvwa|Up|
+|juiceshop|bkimminich/juice-shop|Up|
+|webgoat|webgoat/webgoat-8.0|Up|
 
 ### Down/Pending Containers
 
@@ -378,7 +378,7 @@ services:
 |---|---|---|
 |Audiobookshelf|Audiobooks & podcasts server|Post RAM Upgrade|
 |Calibre|eBook management server|Post RAM Upgrade|
-|Immich|Photo/video management|Post RAM Upgrade|
+|Immich|Photo/video management|Post RAM Upgrade and/or transcoding fix|
 |Jellyfin|Media server|Down for "Maint."|
 |Samba|File sharing for scanning/media|Post RAM Upgrade|
 |Syncthing|Continuous file synchronization|Up with node 3|
