@@ -2,7 +2,7 @@
 **Author:** Ty  
 **Date:** October 2025
 
-Goal: To get all core services configured and fully operational.
+Objective: To get all core services configured and fully operational.
 
 ---
 
