@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://github.com/5280Ty/5280Ty/blob/main/CheckPoint.png" alt="NetVenom" width="450"/>
+</p>
+
 # redshift-labs
 
 Redshift Labs is my personal workspace meant to be a living record of infrastructure design, system hardening, network engineering, and cybersecurity experimentation. 
