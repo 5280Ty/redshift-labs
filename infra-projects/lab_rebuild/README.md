@@ -100,6 +100,7 @@ To build and manage a fully developed homelab that serves as a research and trai
 |CUPS|Very Low|50-100 MB|Scanner interface|
 |Home Assistant|Moderate|0.5-2 GB|Automation platform|
 |Mealie|Low/Mod|200-500 MB|Recipe manager|
+|PiHole|Low|.2-1|Backup DNS|
 |Total|Low|4-8 GB|-|
 
 ---
