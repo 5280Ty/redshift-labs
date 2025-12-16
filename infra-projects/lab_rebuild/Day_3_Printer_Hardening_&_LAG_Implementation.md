@@ -1,6 +1,6 @@
 # Day 3 - Securing & Optimizing Network Infrastructure: EWS Hardening + LAG Implementation   
 **Author:** Ty  
-**Date:** October 2025  
+**Date:** November 2025  
 
 ---
 
