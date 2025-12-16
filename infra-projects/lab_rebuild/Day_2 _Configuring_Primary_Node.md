@@ -1,6 +1,6 @@
 # Day 2 - Configuring the Primary Node  
 **Author:** Ty  
-**Date:** October 2025
+**Date:** November 2025
 
 Objective: To get all core services configured and fully operational.
 
@@ -8,7 +8,7 @@ Objective: To get all core services configured and fully operational.
 
 ## Primary Host: NoctHaven
 
-| Setting|Description|Role|Status|
+|Setting|Description|Role|Status|
 |---|---|---|---|
 |Model|Dell OptiPlex 5050 SFF|Hypervisor and critical services|Active|
 |CPU|Intel Core i5-7500 (4C/4T, QuickSync)|Transcoding and VM workloads|Stable|
