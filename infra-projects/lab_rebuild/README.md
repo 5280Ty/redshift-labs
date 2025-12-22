@@ -75,7 +75,7 @@ To build and manage a fully developed homelab that serves as a research and trai
 - **Model:** HP EliteDesk 705 G4 Mini
 - **CPU:** Ryzen 5 Pro 2400GE
 - **RAM:** 16 GB DDR4 (MAX 32@2933), 1 X@16 2667 MHz 
-- **Storage** 256 GB NVMe/ -
+- **Storage** 256 GB NVMe/1 TB SATA
 
 |Hosted Applications|CPU Load|Typical RAM Use|Role|
 |---|---|---|---|
@@ -90,10 +90,10 @@ To build and manage a fully developed homelab that serves as a research and trai
 ---
 
 #### Node 4: Home Automation & Aux Services Node (Planned)
-- **Model:** HP EliteDesk 705 G4 Mini
-- **CPU:** Ryzen 5 Pro 2400GE
-- **RAM:**  GB DDR4 (MAX 32@2933), 
-- **Storage**  GB NVMe/ -  
+- **Model:** Dell Optiplex 7050 Micro
+- **CPU:** i7-7700T
+- **RAM:** 8 GB DDR4 (MAX 32@2400), 
+- **Storage**  256 GB NVMe/ -  
 
 |Hosted Applications|CPU Load|Typical RAM Use|Role|
 |---|---|---|---|
@@ -108,8 +108,8 @@ To build and manage a fully developed homelab that serves as a research and trai
 #### SOC Node (BlackAegis)  (Coming Soon)
 - **Model:** HP ProDesk 600 G2 SFF  
 - **CPU:** Intel i5-6500   
-- **RAM:** 40 GB DDR4 (MAX 64@2666), 2 X 16@3200 MHz, 1 X 8  
-- **Storage:** 256? GB NVMe/2 TB HDD
+- **RAM:** 64 GB DDR4 (MAX), 4 X 16@3200 MHz
+- **Storage:** 256? GB NVMe/1 TB SSD
 
 |Hosted Applications|CPU Load|Typical RAM Use|Role|
 |---|---|---|---|
@@ -117,7 +117,7 @@ To build and manage a fully developed homelab that serves as a research and trai
 |Security Onion|Very High|16-32 GB (rec)|SOC suite|
 |Seek|Mod/High|100-300 MB|Log correlation and search|
 |TheHive|Mod/High|1-8 GB (rec)|Incident response management|
-|Total|High|24-44 GB|-|
+|Total|High|40+ GB|-|
 
 ---
 
