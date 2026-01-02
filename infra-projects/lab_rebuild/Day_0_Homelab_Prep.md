@@ -1,4 +1,4 @@
-# Day 0 – Homelab Preparation
+# Day 0 - Homelab Preparation
 
 ## Purpose
 
@@ -12,7 +12,7 @@ This homelab is basically my sandbox, a place to break, fix, and refine real IT 
 
 One Proxmox node hosts general services such as Nextcloud, Vaultwarden, and media management, while another runs Security Onion for network monitoring, intrusion detection, and log analysis.
 
-This setup keeps me learning nonstop, from networking and system tuning, to network defense.
+This setup will keep me learning nonstop, from networking and system tuning, to network defense.
 
 ---
 
