@@ -1,4 +1,4 @@
-# Day 4 – Network Monitoring, DNS, and Service Expansion
+# Day 4 - Network Monitoring, DNS, and Service Expansion
 
 Author: Ty  
 Date: November 2025  
@@ -6,7 +6,7 @@ Environment: Project Nyxline Home Lab
 
 ---
 
-## Project Overview
+## Objective
 
 Day 4 focused on introducing centralized monitoring, alerting, and DNS infrastructure while continuing service expansion across the Proxmox cluster. This overview intentionally notes several failure that are documented here for auditability and future remediation.
 
