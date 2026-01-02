@@ -17,7 +17,6 @@ Hardware: HP EliteDesk 705 G4 Mini
 Changes:
 - Added 256 GB NVMe SSD
 - Added 1 TB SATA SSD
-- Removed M.2 2230 WiFi module
 - Installed Proxmox VE
 - Followed the internal Nyxline [Proxmox Start Guide](https://github.com/5280Ty/redshift-labs/blob/main/infra-projects/lab_rebuild/Proxmox_Start_Guide.md) for baseline configuration.
 
