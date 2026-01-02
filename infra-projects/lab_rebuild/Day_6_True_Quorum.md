@@ -1,4 +1,4 @@
-# Day 6 – A True Quorum
+# Day 6 - A True Quorum
 
 Author: Ty  
 Date: December 2025  
@@ -171,7 +171,6 @@ Working
 - Mealie
 - Gitea
 
-
 Not Working
 
 - Monica
@@ -179,7 +178,6 @@ Not Working
 >Both intentionally stopped pending research.  
 - Loki
 - Promtail?
-
 
 ### Homer Dashboard Updates
 Added Uptime Kuma and newly added services to Homer.  
@@ -233,7 +231,6 @@ Added Uptime Kuma and newly added services to Homer.
 |juiceshop|bkimminich/juice-shop|Up|Lab|
 |webgoat|webgoat/webgoat-8.0|Up|Lab|
 |Kali Purple|iso|Up|Lab|
-
 
 ### Down/Pending Containers
 
