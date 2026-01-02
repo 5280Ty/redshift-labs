@@ -4,7 +4,7 @@
 
 ---
 
-## Project Overview
+## Objective
 
 Today focused on adding canary services into the network as early warning traps. These function like digital tripwires that alert and create a log when someone touches what they shouldn’t. They can sit quietly in directories, network shares, or services.
 
