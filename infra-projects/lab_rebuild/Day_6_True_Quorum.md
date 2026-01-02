@@ -190,11 +190,11 @@ Added Uptime Kuma and newly added services to Homer.
 |Router (SOHO)|-|-|-|Default Gateway / DHCP|10.10.10.1|
 |Switch 1 (TP-Link)|-|-|-|Smart Switch|10.10.10.2|
 |Switch 2 (Netgear)|-|-|-|Smart Switch|10.10.10.3|
-|Proxmox Node 1 – NoctHaven|i5-7500|24 GB|256 GB nvme + 1 TB SSD|Nextcloud, Vaultwarden, Jellyfin, Portainer, MariaDB|10.10.10.20|
+|Proxmox Node 1 - NoctHaven|i5-7500|24 GB|256 GB nvme + 1 TB SSD|Nextcloud, Vaultwarden, Jellyfin, Portainer, MariaDB|10.10.10.20|
 |Proxmox Node 2 – NyxNode2|Ryzen 5 Pro 2400GE|16 GB|256 GB nvme + 225 GB SSD|AdGuard Home, Ansible, Grafana, Prometheus, Unbound, Watchtower, Traefik|10.10.10.60|
 |Proxmox Node 3 - Nyxnode3|Ryzen 5 Pro 2400GE|16 GB|256 GB nvme + 1 TB SSD|Loki, Promtail, Uptime Kuma|10.10.10.70|
 |Proxmox SOC – Black Aegis (Coming soon)|i5-6500|64 GB|256 GB HDD + 2 TB HDD|  Security Onion, Cortex, SEEK, The Hive|10.10.10.30|
-|Proxmox Lab Node|i5-6500T|64 GB|256 GB SSD|DVWA, Juice Shop, WebGoat, WP Vuln, Kali Purple, Windows Server, Windows 11 Pro|10.10.10.40|
+|Proxmox Lab Node|i5-6500T|32 GB|256 GB SSD|DVWA, Juice Shop, WebGoat, WP Vuln, Kali Purple, Windows Server, Windows 11 Pro|10.10.10.40|
 |Laptop “Nyx Core”|Ryzen 7 7739U|64 GB|500 GB SSD|Admin / Management|10.10.10.5|
 |Printer HP Officejet Pro 6968|500 MHz|1 GB|-|Network scanner|DHCP|
 
@@ -240,14 +240,14 @@ Added Uptime Kuma and newly added services to Homer.
 |Immich|Photo/video management|Post RAM transcoding fix|
 |Loki|Centralized log aggregation|down, unconfigured|
 |Promtail|Log collection|down, unconfigured|
-|Proxmox Backup Server|Cluster backup coordination|Coming Soon|
 |Syncthing|Continuous file synchronization|Coming Soon|
 |Syncthing|Synchronization target|Coming Soon|
 |Home Assistant|Automation platform|coming soon|
 |Samba|File sharing for scanning/media|Coming soon|
+|Proxmox Backup Server|Cluster backup coordination|Up directly before Ansible|
 |Ansible|Automation controller|Up directly before Traefik|
-|Vaultwarden|Secure password vault|Inoperable until https (Traefik)|
 |Traefik|Reverse proxy / SSL| To be added when network becomes public facing|
+|Vaultwarden|Secure password vault|Inoperable until https (Traefik)|
 
 ---
 
