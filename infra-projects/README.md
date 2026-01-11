@@ -7,15 +7,15 @@
 
 A living record of system evolution, homelab engineering, and hands on security hardening.
 
-This repo captures the full lifecycle of my personal infrastructure. Every rebuild, migration, and security improvement is documented here in a clean, high level format. Think of it as a hybrid between a hacker’s lab notebook and an engineer’s playbook. Nothing in here is theoretical. Everything is the result of real work on real machines.
+This repo captures the full lifecycle of my personal infrastructure. Every rebuild, migration, and security improvement is documented here in a clean, straight forward format. Think of it as a hybrid between a pentester’s lab notebook and an engineer’s playbook. Nothing in here is theoretical. Everything is the result of real work on real machines.
 
 ## Purpose
 
-To show my practical approach to system upgrades, network redesigns, wireless hardening, firmware strategy, and long term maintenance. This is the blueprint behind the setups I rely on for offensive security training, homelab experiments, and ongoing stability.
+To show my practical approach to system upgrades, network redesigns, wireless hardening, firmware strategy, and long term maintenance. This is the blueprint behind the setups I rely on for defensive infrastructure hardening, offensive security training, homelab experiments, and ongoing stability.
 
 ## What This Repository Covers
 
-This collection includes high level documentation and reference material for:
+This collection includes documentation and reference material for:
 
 ### Platform Evolution
 
@@ -32,7 +32,7 @@ This collection includes high level documentation and reference material for:
 • VLAN isolation for vulnerable devices  
 • Wireless segmentation and non broadcast SSID experimentation  
 
-Everything is kept high level to avoid exposing sensitive details. The goal is transparency without sacrificing security.
+Everything is written to avoid exposing sensitive details. The goal is transparency without sacrificing security.
 
 This repo stays focused on truthful documentation rather than idealized diagrams. If something breaks, gets reworked, or turns out to be a bad idea, that gets logged. Infrastructure is never static. This repo follows the same rule.
 
@@ -40,11 +40,10 @@ This repo stays focused on truthful documentation rather than idealized diagrams
 
 • Refined diagrams  
 • Notes from full rebuild cycles  
-• High level security incident handling patterns  
+• Security incident handling patterns  
 • Upgrade roadmaps and version tracking  
 • Additional OS migration breakdowns  
 • Firewall behavior and configuration patterns  
-
 • Service lifecycle and maintenance workflows
 • Checklists that define repeatable processes
 • Scripts used to automate routine tasks
