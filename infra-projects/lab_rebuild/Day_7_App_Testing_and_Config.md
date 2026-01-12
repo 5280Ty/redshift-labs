@@ -205,7 +205,6 @@ docker stats --no-stream
 |Unbound|mvance/unbound:latest|Up|2
 |Watchtower|containrrr/watchtower:latest|Up|2
 |AlertManager|prom/alertmanager:latest|Up|2
-|Gitea|gitea/gitea:latest|Up|2|
 |Uptime Kuma|louislam/uptime-kuma:1|Up|3
 |Loki|	grafana/loki:latest|Up|3|
 |Promtail|grafana/promtail:3.0.0|Up|3|
