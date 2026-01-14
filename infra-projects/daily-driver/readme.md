@@ -7,7 +7,7 @@
 **Redshift Protocol Internal Designation:** NetVenom  
 **Date:** 2025-04-28  
 **System Role:** Daily Driver / Linux Workhorse  
-**Distribution:** Pop!_OS 22.04  
+**Distribution:** Pop!_OS Cosmic 24.04  
 
 
 ---
@@ -58,7 +58,7 @@ sudo dmidecode -t memory
 
 ## Actions Taken
 
-- Replaced factory SSD with 1TB for ample storage.  
+- Replaced factory SSD with 1TB for storage headroom.  
 - Upgraded RAM to 20GB; confirmed unofficial support up to 36GB via chipset documentation and community forums.  
 - Installed **Pop!_OS 22.04** for its stability, hardware support, and clean interface based on GNOME.
 - Disabled Secure Boot (reapplied twice due to BIOS quirks).  
@@ -66,7 +66,8 @@ sudo dmidecode -t memory
   - **LibreOffice, Manuskript, Ghostwriter, Geany/Vim**  
   - **Darktable, Flowblade, Scribus**  
 - Added cybersecurity essentials: **Wireshark, OWASP ZAP, Nmap**, and supporting toolkits.  
-- Configured **Timeshift** for weekly snapshots, ensuring a safety net during experimentation.  
+- Configured **Timeshift** for weekly snapshots, ensuring a safety net during experimentation.
+- Upgraded from 22.04 Mate to 24.04 Cosmic
 
 ---
 
