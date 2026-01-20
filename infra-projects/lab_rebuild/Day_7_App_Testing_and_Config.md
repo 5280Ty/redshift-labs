@@ -157,26 +157,26 @@ Raw notes to be sanitized and add to repo.
 **Nocthaven** 
 docker stats --no-stream
 
-|CONTAINER ID|NAME|CPU %|MEM USAGE / LIMIT|MEM %|NET I/O|BLOCK I/O|PIDS|
-|---|---|---|---|---|---|---|---|
-|c61eec625934|immich-server|0.04%|352.9MiB / 17.56GiB|1.96%|29.9MB / 122MB|2.18MB / 0B|24|
-|a3b010416eec|immich-postgres|0.00%|23.71MiB / 17.56GiB|0.13%|157kB / 411kB|0B / 123MB|23|
-|df83733e8371|immich-ml|0.13%|226.2MiB / 17.56GiB|.26%|34.9kB / 126B|0B / 24.6kB|9|
-|f11000d32a71|booklore|0.20%|78.2MiB / 17.56GiB|3.21%|1.12MB / 436kB|8.19kB / 270kB|61|
-|4161bbcde985|nextcloud|0.00%|109.9MiB / 17.56GiB|0.61%|263kB / 77.3kB|0B / 111kB|10|
-|d6a4a612d9ab|mealie|0.11%|279.1MiB / 17.56GiB|1.55%|36.6kB / 126B|0B / 5.23MB   | 8|
-|66791c437e0c|booklore-db|0.01%|84.18MiB / 17.56GiB|0.47%|472kB / 1.09MB|22.1MB / 35.8kB|11|
-|bc71b9d08893|vaultwarden|0.00%|11.14MiB / 17.56GiB|0.06%|55.8kB / 6.36MB|12.9MB / 32.8kB|11|
-|cc5be395380c|audiobookshelf|0.01%|35.76MiB / 17.56GiB|0.20%|36.1kB / 126B|0B / 41kB|12|
-|4f73a387ba27|immich-redis|0.27%|4.426MiB / 17.56GiB|0.02%|128MB / 32.5MB|0B / 1.02MB|6|
-|9902d1acecae|cups|0.00%|1.844MiB / 17.56GiB|0.01%|36.3kB / 126B|0B / 28.7kB     | 1|
-|5fc1e055153c|heimdall|0.00%|130.7MiB / 17.56GiB|0.73%|50kB / 43.2kB|295kB / 171MB|20|
-|ee7e0126041f|promtail|0.32%|31.26MiB / 17.56GiB|0.17%|36.4kB / 126B|270kB / 30.7MB|9|
-|af93d04d7d6d|homer|0.00%|984KiB / 17.56GiB|0.01%|1.01MB / 14MB|2.77MB / 0B       |1|
-|9b85f97cd4f4|nextcloud-db|0.01%|94.82MiB / 17.56GiB|0.53%|67.8kB / 215kB|49.4MB / 32.8kB|9|
-|f68a13e85241|portainer|0.00%|16.95MiB / 17.56GiB|0.09%|25.5MB / 5.27MB|459kB / 100MB|7|
-|e8202d6e90c1|gitea|0.00%|63.01MiB / 17.56GiB|0.35%|36.8kB / 126B|0B / 228MB       |13|
-|b44051d1bcae|jellyfin|0.01%|139.3MiB / 17.56GiB|0.77%|210kB / 7.31kB|7MB / 67.6MB|17|
+|NAME|CPU %|MEM USAGE / LIMIT|MEM %|NET I/O|BLOCK I/O|PIDS|
+|---|---|---|---|---|---|---|
+|immich-server|0.04%|352.9MiB / 17.56GiB|1.96%|29.9MB / 122MB|2.18MB / 0B|24|
+|immich-postgres|0.00%|23.71MiB / 17.56GiB|0.13%|157kB / 411kB|0B / 123MB|23|
+|immich-ml|0.13%|226.2MiB / 17.56GiB|.26%|34.9kB / 126B|0B / 24.6kB|9|
+|booklore|0.20%|78.2MiB / 17.56GiB|3.21%|1.12MB / 436kB|8.19kB / 270kB|61|
+|nextcloud|0.00%|109.9MiB / 17.56GiB|0.61%|263kB / 77.3kB|0B / 111kB|10|
+|mealie|0.11%|279.1MiB / 17.56GiB|1.55%|36.6kB / 126B|0B / 5.23MB   | 8|
+|booklore-db|0.01%|84.18MiB / 17.56GiB|0.47%|472kB / 1.09MB|22.1MB / 35.8kB|11|
+|vaultwarden|0.00%|11.14MiB / 17.56GiB|0.06%|55.8kB / 6.36MB|12.9MB / 32.8kB|11|
+|audiobookshelf|0.01%|35.76MiB / 17.56GiB|0.20%|36.1kB / 126B|0B / 41kB|12|
+|immich-redis|0.27%|4.426MiB / 17.56GiB|0.02%|128MB / 32.5MB|0B / 1.02MB|6|
+|cups|0.00%|1.844MiB / 17.56GiB|0.01%|36.3kB / 126B|0B / 28.7kB     | 1|
+|heimdall|0.00%|130.7MiB / 17.56GiB|0.73%|50kB / 43.2kB|295kB / 171MB|20|
+|promtail|0.32%|31.26MiB / 17.56GiB|0.17%|36.4kB / 126B|270kB / 30.7MB|9|
+|homer|0.00%|984KiB / 17.56GiB|0.01%|1.01MB / 14MB|2.77MB / 0B       |1|
+|nextcloud-db|0.01%|94.82MiB / 17.56GiB|0.53%|67.8kB / 215kB|49.4MB / 32.8kB|9|
+|portainer|0.00%|16.95MiB / 17.56GiB|0.09%|25.5MB / 5.27MB|459kB / 100MB|7|
+|gitea|0.00%|63.01MiB / 17.56GiB|0.35%|36.8kB / 126B|0B / 228MB       |13|
+|jellyfin|0.01%|139.3MiB / 17.56GiB|0.77%|210kB / 7.31kB|7MB / 67.6MB|17|
 
 
 ### Containers
