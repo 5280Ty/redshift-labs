@@ -23,7 +23,9 @@ To build and manage a fully developed homelab that serves as a research and trai
 - LG TV
 
 ---
-  
+
+<img src="https://github.com/5280Ty/5280Ty/blob/main/dash.png" alt="Lab" width="700"/>
+
 ### Planned Software Stack
 
 #### Node 1: Primary (Family Media & Cloud) (Active)
@@ -120,6 +122,7 @@ To build and manage a fully developed homelab that serves as a research and trai
 |Total|High|40+ GB|-|
 
 ---
+<img src="https://github.com/5280Ty/5280Ty/blob/main/dash2.png" alt="Lab" width="700"/>
 
 #### Lab Node (Redshift) (Active)
 - **Model:** HP EliteDesk 800 G2 Mini  
