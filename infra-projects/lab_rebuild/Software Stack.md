@@ -15,22 +15,22 @@
   - Portainer – Docker container management (active)
   - Homer - Server dashboard (active)
   - BookLore - eBook management serve (active)
+  - Audiobookshelf - Audiobooks & podcasts server (active)
+  - Heimdall - Guest Dashboard (active)
+  - Mealie – Recipe manager (active)
+  - CUPS – Scanner interface only (active)
+  - Home Assistant - Automation platform (Up Last on this Node)
 - **Planned Future Applications**
-  - Audiobookshelf - Audiobooks & podcasts server (coming soon)
   - Monica - Personal CRM (Coming Soon)
-  - Heimdall - Guest Dashboard (coming Soon)
-  - Mealie – Recipe manager (coming soon)
-  - CUPS – Scanner interface only (coming soon)
   - Immich – Photo/video management (post Quik Sync)
   - Samba – File sharing for scanning/media (Up with Node 3 and Syncthing)
   - Syncthing – Continuous file synchronization (Up with node 3)
-  - Home Assistant - Automation platform (Up Last on this Node)
 - **Notes:** Max RAM (32 GB) will ensure smooth performance under heavy loads. Optiplex 7050 supports hardware acceleration (Intel Quick Sync) reducing the CPU load for Jellyfin and Immich. Immich machine learning indexing to run off-hours. Nextcloud preview generator to be disabled. Synchthing between Node 1 and 3 provides redundancy for user data and Samba(?).
 
 ## Node 2: Infrastructure Node (Active)
 - **Model:** HP EliteDesk 705 G4 Mini
 - **CPU:** Ryzen 5 Pro 2400GE
-- **RAM:** 12 GB DDR4 (16 GB RAM upgrade ordered)
+- **RAM:** 16 GB DDR4 
 - **Storage:** 
   - OS SSD: 256 GB NVMe
   - Data SSD: 250 GB SATA
@@ -39,7 +39,7 @@
   - Unbound – Recursive DNS resolver (down Unconfigured)
   - AdGuard Home – DNS filtering (down Unconfigured)
   - Prometheus – Metrics recording/storage (active)
-  - Watchtower – Container update automation (Up)
+  - Watchtower – Container update automation (active)
   - Grafana - Interactive Visualization (active)
 - **Planned Future Applications**
   - Traefik – Reverse proxy / SSL (added when network becomes public facing)
@@ -49,16 +49,17 @@
 - **Model:** HP EliteDesk 705 G4 Mini
 - **CPU:** Ryzen 5 Pro 2400GE
 - **RAM:** 16 GB DDR4
-- **Storage:**  - Open Canary - A decentralized network honeypot (to be added with Traefik with strict egress filtering)
+- **Storage:** 
   - OS SSD: 256 GB NVMe
   - Data SSD: 1 TB SATA
 - **Hosted Applications:** 
-  - Promtail – Log collection
-  - Loki – Centralized log aggregation
-  - Proxmox Backup Server – Cluster backup coordination
-  - Samba – File sharing for scanning/media
-  - Syncthing – Synchronization target
-  - Uptime Kuma – Service uptime monitoring
+  - Promtail – Log collection (active)
+  - Loki – Centralized log aggregation (active)
+  - Uptime Kuma – Service uptime monitoring (active)
+- **Planned Future Applications**
+  - Proxmox Backup Server – Cluster backup coordination (Coming post node migration)
+  - Samba – File sharing for scanning/media (Coming post node migration)
+  - Syncthing – Synchronization target (Coming post node migration)
 - **Notes:** To be optimized for log aggregation, backup, and library serving. 16 GB RAM is adequate, any bottlenecks would likely be the CPU.
 
 ## Lab Node (Active)
@@ -75,8 +76,8 @@
   - CyberChef- Cyber Swiss Army Knife (will become backup post SOC deployment)
   - Kali Purple - A Linux penetration testing distribution (active)
 - **Planned Future Applications**
-  - Windows Pro (Licensed) - Totally not Spyware (planned)
-  - Windows Server - Offensive and Defensive VM (planned)
+  - Windows Pro (Licensed) - Totally not Spyware (planned, awaiting hardware)
+  - Windows Server - Offensive and Defensive VM (planned, awaiting hardware)
 - **Notes:** Offensive testing, malware sandboxing, and Red Team experimentation. Windows VMs will be off when not in use to conserve resources. Upgrading CPU is a priority.
 
 # Planned Future Nodes
