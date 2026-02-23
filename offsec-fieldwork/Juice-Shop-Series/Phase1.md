@@ -1,6 +1,10 @@
 # Juice Shop Series
 *Phase 1*
 
+<p align="center">
+<img src="https://github.com/5280Ty/5280Ty/blob/main/Score-board.png" alt="Redshift" width="900"/>
+</p>
+
 This assessment started as a straightforward black box test against OWASP Juice Shop. It didn’t stay that way. As soon as I got deeper into the application, the score board and the internal challenge system turned it into a hybrid pentest and CTF, powered almost entirely by what I found on my own. I kept my approach realistic: no guessing solutions, no relying on writeups. If it’s in here, I either discovered it manually or accidentally triggered it while testing attack paths.
 
 I ran almost everything by hand. Only one request was modified in Burp, and that was to give a zero-star product review. Everything else came from manual enumeration, observation, and the application giving me more than it should have.
